@@ -1,0 +1,116 @@
+body
+{
+    text-align: center;
+}
+
+h1, .majuscule
+{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nutrition h2, .quotidien h2
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a
+{
+    list-style-type: none;
+    font-weight: bold;
+    text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.evenements a:hover
+{
+    border-left: coral;
+    color: coral;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none;
+
+}
+p {
+  font-family: 'Roboto Mono', monospace;
+}
+/* .presentation_page {
+  background-image: url(/Users/helenadomlan/DocumentsLNA/desCodeusesExercices/Portfolio_Exercices/Exercice_TP-HTML/musculation/Projet_muscu/images/jannis-brandt-mmsQUgMLqUo-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} */
+body
+{
+    text-align: center;
+}
+
+h1, .majuscule
+{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #FC3C2A;
+}
+
+h1
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a
+{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.evenements a:hover
+{
+    border-left: #FC3C2A;
+    color: #FC3C2A;
+    font-weight: normal;
+}
+
+p {
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    color: #FC3C2A;
+}
+
+
+.photo_menu {
+    background-image: url("images/jannis-brandt-mmsQUgMLqUo-unsplash.jpg");
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+.menu {
+    width: 100px;
+    margin:10px;
+}
+
+.titre{
+    margin-top: -100px;
+}
+
+.coachs{
+    padding: 20px;
+}

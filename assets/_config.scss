@@ -1,0 +1,10 @@
+$primarycolor:black;
+$accentcolor:#FC3C2A;
+$secondarycolor:#1f1d1c;
+
+@mixin image_fond {
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 8vh;
+}

@@ -1,0 +1,47 @@
+body
+{
+  text-align: center;
+}
+h1, .majuscule
+{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+a
+{
+  list-style-type: none;
+  font-weight: bold;
+}
+.evenements a:hover
+{
+  border-left: #FC3C2A;
+  color: #FC3C2A;
+  font-weight: normal;
+}
+p {
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+h1, h2 {
+  font-family: 'Roboto Mono', monospace;
+  color: #FC3C2A;
+}
+.photo_menu {
+  background-image: url("images/portic.jpg");
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.menu {
+  width: 100px;
+  margin:10px;
+}
+.titre{
+  margin-top: -100px;
+}
+.coachs{
+  padding: 20px;

@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body a {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bold;
+  color: #FC3C2A;
+}
+
+body:hover {
+  color: #d61503;
+}
+
+body h2 {
+  color: #FC3C2A;
+  margin: 3vh;
+}
+
+h1 {
+  color: white;
+  margin-top: -12vh;
+}
+p{
+  color: black
+}
+.photo_menu_parcours {
+  background-image: url("../images/abdo.png");
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 8vh;
+}
+
+.photo_menu_nutrition {
+  background-image: url("../images/jannis-brandt-mmsQUgMLqUo-unsplash.jpg");
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 8vh;
+}
+
+.photo_menu_event {
+  background-image: url("../images/pietro.jpg");
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 8vh;
+}
+
+.photo_menu_coach {
+  background-image: url("../images/portic.jpg");
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  margin-bottom: 8vh;
+}
+
+.menu {
+  float: right;
+  width: 100px;
+  margin: 1vh 2vw;
+}
+/*# sourceMappingURL=page.css.map */

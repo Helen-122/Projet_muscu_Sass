@@ -1,0 +1,64 @@
+body
+{
+    background: url(images/Hnet.com-image\ \(6\).jpg) no-repeat;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    /*margin-top: ;*/
+}
+
+li
+{
+    list-style-type: none;
+    background-color: white;
+    border: 1px pink solid;
+    margin-bottom: 200px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 4em;
+}
+
+a
+{
+    color: pink;
+    text-decoration: none;
+}
+
+a i
+{
+    color: white;
+}
+
+.croix_nav
+{
+    /*width: 20%;*/
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.fa-customize
+{
+    font-size: 100px;
+}
+
+.nav
+{
+    margin-top: 100px;
+}
+
+/*.croix_nav
+{
+    width: 80%;
+}*/
